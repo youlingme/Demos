@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Demos</string>
+    <string name="title_activity_my_list_view">MyListViewActivity</string>
+    <string name="title_activity_my_array_adapter">MyArrayAdapter</string>
+    <string name="title_activity_my_base_adapter">MyBaseAdapterActivity</string>
+    <string name="title_activity_simple_adapter">SimpleAdapterActivity</string>
 </resources>
