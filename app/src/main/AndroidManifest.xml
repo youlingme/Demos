@@ -16,19 +16,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.listview.MainActivity"
             android:label="@string/title_activity_my_list_view" />
         <activity
-            android:name=".activity.ArrayAdapterActivity"
+            android:name=".activity.listview.ArrayAdapterActivity"
             android:label="@string/title_activity_my_array_adapter"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.BaseAdapterActivity"
+            android:name=".activity.listview.BaseAdapterActivity"
             android:label="@string/title_activity_my_base_adapter"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SimpleAdapterActivity"
+            android:name=".activity.listview.SimpleAdapterActivity"
             android:label="@string/title_activity_simple_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".activity.service.MyService"/>
+
+        <activity
+            android:name=".activity.service.MainActivity"
+            android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

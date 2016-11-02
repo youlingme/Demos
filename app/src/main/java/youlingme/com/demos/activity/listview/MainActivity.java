@@ -1,4 +1,4 @@
-package youlingme.com.demos.activity;
+package youlingme.com.demos.activity.listview;
 
 import android.content.Intent;
 import android.os.Bundle;

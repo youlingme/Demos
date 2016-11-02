@@ -6,11 +6,11 @@ package youlingme.com.demos.bean;
 public class Bean {
 
     private String name;
-    private Class className;
+    private Class intentClass;
 
-    public Bean(String name, Class className) {
+    public Bean(String name, Class intentClass) {
         this.name = name;
-        this.className = className;
+        this.intentClass = intentClass;
     }
 
     public String getName() {
@@ -21,11 +21,11 @@ public class Bean {
         this.name = name;
     }
 
-    public Class getClassName() {
-        return className;
+    public Class getIntentClass() {
+        return intentClass;
     }
 
-    public void setClassName(Class className) {
-        this.className = className;
+    public void setIntentClass(Class intentClass) {
+        this.intentClass = intentClass;
     }
 }

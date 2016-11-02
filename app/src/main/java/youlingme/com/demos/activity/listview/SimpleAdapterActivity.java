@@ -1,4 +1,4 @@
-package youlingme.com.demos.activity;
+package youlingme.com.demos.activity.listview;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

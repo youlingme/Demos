@@ -4,4 +4,6 @@
     <string name="title_activity_my_array_adapter">MyArrayAdapter</string>
     <string name="title_activity_my_base_adapter">MyBaseAdapterActivity</string>
     <string name="title_activity_simple_adapter">SimpleAdapterActivity</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
