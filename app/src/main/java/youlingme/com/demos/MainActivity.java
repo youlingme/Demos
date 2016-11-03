@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import youlingme.com.demos.activity.sqlite.SQLiteActivity;
 import youlingme.com.demos.bean.Bean;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         myStringArray.add(new Bean("ListView", youlingme.com.demos.activity.listview.MainActivity.class));
         myStringArray.add(new Bean("Service", youlingme.com.demos.activity.service.MainActivity.class));
+        myStringArray.add(new Bean("SQLite", SQLiteActivity.class));
 
         return myStringArray;
     }
